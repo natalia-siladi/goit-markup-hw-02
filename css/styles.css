@@ -53,6 +53,14 @@ body {
 }
 .link.current{
    color: var(--accent-text-colour); 
+
+}
+.auth-nav {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
 }
 .auth-link {
     color: var(--primary-text-colour);
@@ -153,6 +161,7 @@ body {
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
+    text-decoration: none;
 }
 .contacts:hover,
 .contacts:focus {
@@ -161,6 +170,7 @@ body {
 /*portfolio*/
 
 .filtr {
+    font-family: inherit;
     background-color: rgba(245, 244, 250, 1);
     color: var(--title-text-colour);
     font-weight: 500;
